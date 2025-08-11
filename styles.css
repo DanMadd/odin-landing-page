@@ -1,0 +1,62 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+/* Top bar */
+.header {
+    background-color:darkslateblue;
+    display: flex;
+    flex-direction: column;
+    border-width: 10px;
+    border: 5px dashed black;
+}
+.headerbar {
+    display: flex;
+    flex-direction: row;
+    border: 5px dashed black;
+    justify-content: flex-end;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#headerlogo {
+    border: 5px dashed black;
+    margin-right: auto;
+}
+.headerlinks {
+    display: flex;
+    border: 5px dashed black;
+    gap: 5px;
+}
+.headercontent {
+    display: flex;
+    flex-direction: row;
+    border: 5px dashed black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+#pizzaimage {
+    max-width: 50%;
+}
+/* Random info section */
+.randominfo {
+    background-color: white;
+    border: 5px dashed black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.quoteinfo {
+    background-color: grey;
+    border: 5px dashed black;
+}
+
+.signupbanner {
+    background-color: white;
+    border: 5px dashed black;
+}
+.footer {
+    border: 5px dashed black;
+}
