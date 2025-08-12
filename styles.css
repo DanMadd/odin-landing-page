@@ -1,62 +1,79 @@
-
-
+h1 {
+    font-size: 48px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;    
+}
 .container {
     display: flex;
     flex-direction: column;
 }
 /* Top bar */
 .header {
-    background-color:darkslateblue;
+    background-color:#0a2b3d;
     display: flex;
     flex-direction: column;
     border-width: 10px;
-    border: 5px dashed black;
+    color: white;
 }
 .headerbar {
     display: flex;
     flex-direction: row;
-    border: 5px dashed black;
     justify-content: flex-end;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 #headerlogo {
-    border: 5px dashed black;
     margin-right: auto;
 }
 .headerlinks {
     display: flex;
-    border: 5px dashed black;
-    gap: 5px;
+    align-items: center;
+    gap: 15px;
+}
+.headercontent > * {
+    flex: 1 1 0;
 }
 .headercontent {
     display: flex;
     flex-direction: row;
-    border: 5px dashed black;
-    margin-left: 50px;
-    margin-right: 50px;
+    flex: 1 0 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
+    justify-content: space-evenly;
 }
-#pizzaimage {
-    max-width: 50%;
+#image {
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
+#signupbutton {
+    display: flex;
+    background-color: rgb(39, 124, 235);
+    max-width: 25%;
+    min-height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    border-radius: 5px;
 }
 /* Random info section */
 .randominfo {
     background-color: white;
-    border: 5px dashed black;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 .quoteinfo {
     background-color: grey;
-    border: 5px dashed black;
 }
 
 .signupbanner {
     background-color: white;
-    border: 5px dashed black;
-}
-.footer {
-    border: 5px dashed black;
 }
